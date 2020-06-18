@@ -1,0 +1,293 @@
+body {
+    background-color: rgb(247, 245, 242);
+}
+
+
+
+.navbar {
+    background: -moz-linear-gradient(45deg, #45484d 0%, #000000 100%);
+    background: -webkit-linear-gradient(45deg, #45484d 0%,#000000 100%);
+    background: linear-gradient(45deg, #45484d 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+    position: fixed;
+}
+.logo-text {
+    display: inline-block;
+    position: absolute;
+    margin-left: 5rem;
+    color: #eeeef9;
+    font-family: Brush Script Std, cursive;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-text {
+        position: relative;
+    }
+}
+
+
+.menu {
+    display: inline-flex;
+    position: relative;
+    margin-left: 35rem;    
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    Font-size: 1.5rem;
+    list-style-type: none;
+    padding: 2rem;
+    color: #eeeef9;;
+   
+    }
+
+    @media screen and (max-width: 768px) {
+        .menu {
+            margin-left: 0rem;
+        }
+    }
+.menu > li > a {
+    color: #eeeef9;
+    padding-left: 2rem;
+}
+.menu > li > a:hover {
+text-shadow: #f5f5f5 0px 0px 2rem;
+text-decoration: none;
+-webkit-text-stroke-color: lightgrey;
+-webkit-text-stroke-width: 0.1rem;
+}
+.about-us {
+    position: relative;
+    background:rgb(48, 49, 56);
+    color: #eeeef9;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 2rem;
+    font-family: Verdana, sans-serif;
+    font-size: 1rem;
+}
+.header {
+    color: #eeeef9;
+    font-family: Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+.about-photo {
+    position: relative;
+    background: rgb(48, 49, 56);
+    background-image: url("dancer.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.our-team {
+    position: relative;
+    display: block;
+}
+.team-header {
+    width: 100%;
+    color: rgb(48, 49, 56);
+    font-family: Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 2rem;
+}
+.team-pics {
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 1rem;
+    size: 3rem;
+    object-position: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+.team-headers {
+    color: rgb(48, 49, 56);
+    font-family: Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.team-text {
+    color: rgb(48, 49, 56);
+    font-family: Verdana, sans-serif;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+.classes {
+    display: inline-flex;
+    background:rgb(48, 49, 56);
+    color: #eeeef9;
+    flex-wrap: wrap;
+    font-family: Verdana, sans-serif;
+    font-size: 3rem;
+}
+.classes-header {
+    background: rgb(48, 49, 56);
+    width: 100%;
+    color: #eeeef9;
+    font-family: Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 3rem;
+    margin-bottom: -1rem;
+}
+.thumbnails-background {
+    display: block;
+    position: relative;
+    background: rgb(48, 49, 56);
+    margin-top: -1rem;
+}
+.thumbnails-background:hover {
+    box-shadow: inset #f5f5f5 0px 0px 30px;
+}
+.thumbnails-text {
+    color: #eeeef9;
+    font-family: Verdana, sans-serif;
+    font-size: 1rem;
+    border: 0.1rem, solid lightgray;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+.thumbnails {
+    border-radius: 2rem;
+    padding: 1rem;
+    width:100%;
+    height: auto;
+    float: none;
+}
+.thumbnails-headers {
+    color: #eeeef9;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+.more-button {
+    position: relative;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #eeeef9;
+    margin:1rem;
+    background-color: rgb(48, 49, 56);
+    color: #eeeef9;
+}
+.more-button:hover {
+    box-shadow: inset #f5f5f5 0rem 0rem 1rem;
+}
+
+
+
+/* Table*/
+
+.days {
+    margin-left: -1rem;
+    margin-bottom: 4rem;
+    background: rgb(103, 99, 116);
+    border: rgb(48, 49, 56) 0.2rem solid;
+    font-family: Verdana, sans-serif;
+    color: snow;
+    font-size: 1.4rem;
+}
+.th {
+    border: rgb(48, 49, 56) 0.4px solid;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.time {
+    border: rgb(48, 49, 56) 0.4px solid;
+    background-color: rgb(173, 184, 194);
+    color: rgb(48, 49, 56);
+    font-family: Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.scheduled {
+    background-color: rgb(146, 152, 245);
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(48, 49, 56);
+    text-align: center;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.phone {
+    color: #eeeef9;
+    font-family: Verdana, sans-serif;
+    font-size: 1rem;
+}
+.phone:hover{
+text-shadow: #f5f5f5 0px 0px 2rem;
+text-decoration: none;
+-webkit-text-stroke-color: lightgrey;
+-webkit-text-stroke-width: 0.1rem;
+}
+.make {
+    padding-top: 2rem;
+}
+.motivation {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(150, 159, 216);
+}
+
+.foot {
+    background-color: rgb(48, 49, 56);
+    color: #eeeef9;
+    font-size: 1rem;
+}
+.prices-table {
+    margin-left: -1rem;
+    margin-bottom: 4rem;
+    background: rgb(23, 24, 27);
+    border: rgb(141, 141, 143) 0.2rem solid;
+    font-family: Verdana, sans-serif;
+    color: snow;
+    font-size: 1.4rem;
+}
+.classes-amount {
+    margin-left: -1rem;
+    margin-bottom: 4rem;
+    background: rgb(49, 50, 51);
+    border: rgb(141, 141, 143) 0.2rem solid;
+    font-family: Verdana, sans-serif;
+    color: snow;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.cost {
+margin-left: -1rem;
+margin-bottom: 4rem;
+background:slategrey;;
+border: rgb(37, 38, 41);
+font-family: Verdana, sans-serif;
+font-weight: bold;
+color: snow;
+font-size: 1.4rem;
+text-align: center;
+}
+
+.table-margin {
+    margin-bottom: 5rem;
+}
